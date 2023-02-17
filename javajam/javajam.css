@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 
 body {
-    background-color: #fcebb6;
     color: #221811;
     font-family: 'Tahoma', 'Arial', 'sans-sarif';
+    background-color: #FCEBB6;
+    background-image: url(images/faderoad50.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
@@ -11,21 +15,49 @@ header {
     background-color: #D2B48C;
     text-align: center;
     font-family: 'Solitreo', cursive;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
 h1 {
-    line-height: 200%;
+    font-size: 3em;
 
 }
 
 h2 {
-    color: #8C2826
+    color: #8C2826;
+}
+
+h3 {
+    color: #8C3826;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    padding-bottom: 0.25em;
+}
+
+dt {
+    color: #8C3826;
 }
 
 nav {
     text-align: center;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
 }
 
 footer {
@@ -33,11 +65,36 @@ footer {
     font-size: .6em;
     font-style: italic;
     text-align: center;
+    padding: 1em;
+    border-top: #8C3826 2px;
 }
 
 #wrapper {
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 2px 2px 2px gray;
     width: 80%;
     background-color: #fefaeb;
     margin-right: auto;
     margin-left: auto;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+
+
 }
