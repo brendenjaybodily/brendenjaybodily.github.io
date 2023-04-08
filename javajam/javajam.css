@@ -241,6 +241,8 @@ input, textarea { margin-bottom: .5em;
 
 .current {
     text-decoration-line: underline;
+    text-transform: uppercase;
+    color: blue;
 }
 
 @media (min-width: 600px){
