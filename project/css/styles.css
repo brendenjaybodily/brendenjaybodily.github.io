@@ -70,6 +70,9 @@
   box-sizing: border-box;
 }
 
+.current {
+  text-decoration-line: underline;}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -409,6 +412,15 @@ legend {
   font-size: calc(1.275rem + 0.3vw);
   line-height: inherit;
 }
+
+#mobile{
+  display: none;
+}
+
+#desktop{
+  display:inline;
+}
+
 @media (min-width: 1200px) {
   legend {
     font-size: 1.5rem;
